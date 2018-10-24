@@ -29,7 +29,7 @@ public class Colecionador {
         int maisAntigo = Integer.MAX_VALUE;
 
         for (Carro carro: colecao) {
-            if (carro.getAnoLancamento() > maisAntigo) {
+            if (carro.getAnoLancamento() < maisAntigo) {
                 maisAntigo = carro.getAnoLancamento();
             }
         }
